@@ -1,0 +1,167 @@
+/*
+COLORS:
+
+Nav background: #1f571f
+Nav highlight:  #37b73c
+
+*/
+
+body {
+    font-family: 'Trebuchet MS';
+    color: black;
+    font-size: 30px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+
+/* NAVBAR */
+
+nav ul {
+    font-size: 16px;
+    color: whitesmoke;
+    background-color: #1f571f;
+    top: 0;
+    width: 100%;
+    left: 0%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-grid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #1f571f;
+    height: 17px;
+    border-bottom: 5px solid #1f571f;
+}
+
+#selected {
+    border-bottom: 5px solid #37b73c;
+}
+
+a:active,
+#selected:active {
+    transform: translateY(3px);
+}
+
+nav a:hover,
+#selected:hover {
+    border-bottom: 5px solid #37b73c;
+}
+
+
+/* NOT NAVBAR */
+
+.head {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+button:focus,
+select:focus {
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#remind-widget {
+    align-self: center;
+    right: 0px;
+    border: 0;
+    width: 450px;
+    height: 500px;
+}
+
+#classyheader {
+    border: 3px solid;
+    width: 725px;
+    max-width: 100%;
+    height: auto;
+    max-height: 81px;
+}
+
+.drillvid {
+    width: 40%;
+    height: 375px;
+}
+
+#drillselect {
+    background-color: #1f571f;
+    margin: 0;
+}
+
+#selector {
+    align-self: center;
+    color: whitesmoke;
+}
+
+#message {
+    color: crimson;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+a {
+    color: dodgerblue;
+    ;
+    font-weight: bold;
+}
+
+#warmups {
+    color: darkslategray;
+    font-size: large;
+}
+
+#percstaff {
+    color: darkslateblue;
+    font-size: large;
+}
+
+#percawards {
+    font-size: medium;
+    color: #004500;
+    line-height: 1.5;
+}
+
+#maincontent {
+    font-size: 22px;
+}
+
+#bandwagon {
+    font-size: 20px;
+}
+
+#bandwagon ul {
+    text-align: left;
+    color: #993300;
+}
+
+#programphilosophy {
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
