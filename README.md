@@ -1,3 +1,1 @@
 # NPBandWebsite
-
-attention fortnite gamers
