@@ -1,6 +1,6 @@
 # Marching Band Website
 
-### Created for Web Dev 101
+### Created for BSA's Communications Merit Badge
 
 Based on the New Providence High School Marching Band's official webpage
 
